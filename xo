@@ -1,0 +1,27 @@
+console.log("hello?")
+
+const OX=["O","X","&nbsp"];
+const Player=document.getElementById("Player")
+var P=boolean(1);
+try{
+var G=[Uint8Array([2,2,2]),
+       Uint8Array([2,2,2]),
+       Uint8Array([2,2,2])]
+}
+catch{
+var G=[[2,2,2],
+       [2,2,2],
+       [2,2,2]];
+};
+
+console.log(G)
+console.log(Player)
+console.log(P)
+console.log(Number(P))
+
+Player.innerHTML=OX[Number(P)]
+
+
+//function place()}{
+//	if P==1{P=~P;}
+//	else {

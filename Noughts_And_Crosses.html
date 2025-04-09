@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Noughts and Crosses</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+body{color:#000;background-color:#FFF;font-familly:Garamond, "Romain du Roi", Serif}
+TT{font-family:"IBM Courier",Courier,"Courier New",monospace}
+.small{font-size:8px}
+.Header{color:#FFF;background-color:#FF1493;padding:0px;margin:0px;display:flex;justify-content:center}
+Table {font-size:64px;border-collapse:collapse; table-layout:fixed;font-familly:Futura,Kabel,"Semplicità",Semplicita,"ITC Avant Garde","Century Gothic","IBM Courier",Courier,"Courier New",monospace;border-width:1px;border-color:#000}
+TR,TH{align:center;line-height:69px;white-space: nowrap;border-width:1px;border-color:#000;margin:0px}
+</style>
+</head>
+<body>
+<div class="Header">
+<H1 align=center><TT>Noughts And Crosses</TT></H1>
+</div>
+<br>
+<p align=center>The game where if both play well, you draw</p>
+<br>
+<!--id system works with CYX where Y is the row and X is the column-->
+<H1>Playing now: <TT id=Player></TT></H1>
+<TABLE BORDER width=210px align=center>
+  <TR><TH id=C00>&nbsp</TH><TH id=C01>&nbsp</TH><TH id=C02>&nbsp</TH></TR>
+  <TR><TH id=C10>&nbsp</TH><TH id=C11>&nbsp</TH><TH id=C12>&nbsp</TH></TR>
+  <TR><TH id=C20>&nbsp</TH><TH id=C21>&nbsp</TH><TH id=C22>&nbsp</TH></TR>
+</TABLE>
+<script type="text/javascript" src="xo"/>
+</body>
+</html>
